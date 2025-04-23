@@ -24,6 +24,7 @@ section {
     margin-bottom: 10px; /* Absolute unit */
     border: 2px solid #ccc;
     border-radius: 10px;
+    background-color: var(--primary-bg-color);
 }
 
 #main-header {
@@ -77,11 +78,11 @@ section h2 {
 
 video {
     width: 100%;
-    max-width: 400px; /* or any value that fits your layout */
+    max-width: 300px; /* You can adjust as needed */
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 8px; /* optional styling */
+    border-radius: 6px;
   }
 
 section:has(img) {
