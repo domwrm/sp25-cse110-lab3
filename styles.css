@@ -26,7 +26,7 @@ h1 {
 }
 
 h2, h3 {
-    color: color-mix(in srgb, black 70%, blue 30%);
+    color: color-mix(srgb, black 70%, blue 30%);
     margin-bottom: 0.5rem;
     text-decoration: underline;
 }
