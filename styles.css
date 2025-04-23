@@ -43,6 +43,12 @@ button:hover, input[type="radio"]:active {
     background-color: hsla(0, 0%, 0%, 0.329);
 }
 
+h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+}
+
+
 h2, h3 {
     color: rgb(9, 33, 58);
     margin-bottom: 0.5rem;
