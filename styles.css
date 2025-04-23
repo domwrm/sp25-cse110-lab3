@@ -6,7 +6,7 @@
 
 /* Element Selector */
 body {
-    color: #ffffff; 
+    color: #000000; 
     background-color: black;             
     margin: 2em;
     font-family: --primary-font, sans-serif;
@@ -40,7 +40,7 @@ input[type="text"], input[type="date"], select, textarea {
 }
 
 button:hover, input[type="radio"]:active {
-    background-color: hsl(120, 100%, 75%);
+    background-color: hsl(0, 100%, 63%);
 }
 
 h2, h3 {
