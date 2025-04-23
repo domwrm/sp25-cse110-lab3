@@ -1,6 +1,6 @@
 :root {
     --primary-bg-color: #333;
-    --text-color: white;
+    --text-color: rgb(0, 0, 0);
     --primary-font: 'Lato';
 }
 
