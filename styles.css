@@ -75,6 +75,15 @@ section h2 {
     margin-bottom: 15px;
 }
 
+video {
+    width: 100%;
+    max-width: 400px; /* or any value that fits your layout */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; /* optional styling */
+  }
+
 section:has(img) {
     text-align: center;
     border-color: color-mix(in srgb, rgb(36, 193, 255) 50%, white 50%);
