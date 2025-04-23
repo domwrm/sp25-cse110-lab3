@@ -1,6 +1,7 @@
 :root {
     --primary-bg-color: #f4f6f9;
     --text-color: #333;
+    --primary-font: 'Lato';
 }
 
 /* Element Selector */
@@ -8,7 +9,7 @@ body {
     color: #ffffff; 
     background-color: black;             
     margin: 2em;
-    font-family:'Lato';
+    font-family: --primary-font, sans-serif;
 
 }
 
@@ -73,15 +74,6 @@ section h2 {
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-    width: 200px; /* or any fixed size you prefer */
-    display: block;
-    margin: 0 auto;
-  }
-  
 
 section:has(img) {
     text-align: center;
