@@ -1,5 +1,5 @@
 :root {
-    --primary-bg-color: #474747;
+    --primary-bg-color: #b3afaf;
     --text-color: rgb(255, 255, 255);
     --primary-font: 'Lato';
 }
@@ -9,7 +9,7 @@ body {
     background-color: black;             
     margin: 2em;
     font-family: var(--primary-font, sans-serif);;
-
+    color: var(--text-color);
 }
 
 * {
@@ -21,16 +21,14 @@ body {
 section {
     padding: 1rem; /* Relative unit */
     margin-bottom: 10px; /* Absolute unit */
-    border: 2px solid #222222;
-    border-radius: 10px;
+    border: 2px solid #0d0e3a56;
+    border-radius: 15px;
     background-color: var(--primary-bg-color);
-    color: var(--text-color);
 }
 
 #main-header {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--text-color)
 }
 
 input[type="text"], input[type="date"], select, textarea {
