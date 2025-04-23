@@ -1,6 +1,26 @@
 /* Element Selector */
 body {
     background-color: #118d49; 
-    color: darkslategray;             
+    color: black;             
     margin: 2em;
+}
+
+/* Make page responsive */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    img, audio, video {
+        width: 100%;
+        height: auto;
+    }
 }
