@@ -1,5 +1,5 @@
 :root {
-    --primary-bg-color: #333;
+    --primary-bg-color: #858585;
     --text-color: rgb(0, 0, 0);
     --primary-font: 'Lato';
 }
@@ -22,7 +22,7 @@ body {
 section {
     padding: 1rem; /* Relative unit */
     margin-bottom: 10px; /* Absolute unit */
-    border: 2px solid #ccc;
+    border: 2px solid #222222;
     border-radius: 10px;
     background-color: var(--primary-bg-color);
 }
@@ -41,7 +41,7 @@ input[type="text"], input[type="date"], select, textarea {
 }
 
 button:hover, input[type="radio"]:active {
-    background-color: hsl(0, 100%, 63%);
+    background-color: hsla(0, 0%, 0%, 0.329);
 }
 
 h2, h3 {
@@ -138,6 +138,7 @@ main {
 
 footer {
     display: block;
+    color: var(--text-color);
     text-align: center;
     margin-top: 2rem;
     padding: 1rem;
