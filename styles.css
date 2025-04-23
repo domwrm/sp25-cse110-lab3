@@ -1,6 +1,6 @@
 :root {
-    --primary-bg-color: #f4f6f9;
-    --text-color: #333;
+    --primary-bg-color: #333;
+    --text-color: white;
     --primary-font: 'Lato';
 }
 
@@ -44,7 +44,7 @@ button:hover, input[type="radio"]:active {
 }
 
 h2, h3 {
-    color: rgb(0, 102, 204);
+    color: rgb(9, 33, 58);
     margin-bottom: 0.5rem;
 }
 
@@ -57,7 +57,7 @@ nav ul {
 }
 
 main > section {
-    background-color: #ffffff;
+    background-color: var(--primary-bg-color);
 }
 
 h3 ~ ul {
