@@ -6,7 +6,7 @@
 
 /* Element Selector */
 body {
-    background-color: rgb(248, 243, 243);             
+    background-color: rgb(0, 0, 0);             
     margin: 2em;
     font-family: var(--primary-font, sans-serif);;
     color: var(--text-color);
@@ -42,12 +42,6 @@ input[type="text"], input[type="date"], select, textarea {
 button:hover, input[type="radio"]:active {
     background-color: hsla(0, 0%, 0%, 0.329);
 }
-
-h1 {
-    color: rgb(255, 255, 255);
-    margin-bottom: 0.5rem;
-}
-
 
 h2, h3 {
     color: rgb(9, 33, 58);
@@ -119,6 +113,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
+    color: var(--text-color);
 }
 
 /* Make page responsive */
