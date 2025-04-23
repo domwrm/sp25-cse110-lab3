@@ -62,7 +62,7 @@ section h2 {
 
 section:has(img) {
     text-align: center;
-    border-color: color-mix(in srgb, rgb(36, 193, 255) 50%, white 50%);
+    background-color: color-mix(in srgb, rgb(36, 193, 255) 50%, white 50%);
 }
 
 section ol {
