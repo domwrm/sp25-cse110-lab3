@@ -1,7 +1,12 @@
+:root {
+    --primary-bg-color: #f4f6f9;
+    --text-color: #333;
+}
+
 /* Element Selector */
 body {
-    background-color: #ffffff; 
-    color: black;             
+    color: #ffffff; 
+    background-color: black;             
     margin: 2em;
     font-family:'Lato';
 
@@ -15,7 +20,7 @@ body {
 
 section {
     padding: 1rem; /* Relative unit */
-    margin-bottom: 20px; /* Absolute unit */
+    margin-bottom: 10px; /* Absolute unit */
     border: 2px solid #ccc;
     border-radius: 10px;
 }
@@ -38,7 +43,7 @@ button:hover, input[type="radio"]:active {
 }
 
 h2, h3 {
-    color: rgba(0, 102, 204, 0.9);
+    color: rgb(0, 102, 204);
     margin-bottom: 0.5rem;
 }
 
@@ -69,9 +74,18 @@ section h2 {
     margin-bottom: 15px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: 200px; /* or any fixed size you prefer */
+    display: block;
+    margin: 0 auto;
+  }
+  
+
 section:has(img) {
     text-align: center;
-    border-color: color-mix(in srgb, blue 50%, white 50%);
+    border-color: color-mix(in srgb, rgb(36, 193, 255) 50%, white 50%);
 }
 
 section {
